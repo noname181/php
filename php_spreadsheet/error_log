@@ -1,0 +1,127 @@
+[31-May-2020 16:49:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nonameec/study/php_spreadsheet/import.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 44
+[31-May-2020 16:50:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/nonameec/study/php_spreadsheet/import.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 45
+[31-May-2020 16:53:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/nonameec/study/php_spreadsheet/import.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 45
+[31-May-2020 16:54:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/nonameec/study/php_spreadsheet/import.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 48
+[31-May-2020 16:55:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/nonameec/study/php_spreadsheet/import.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 48
+[31-May-2020 16:59:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/nonameec/study/php_spreadsheet/import.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 41
+[31-May-2020 17:01:21 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/nonameec/study/php_spreadsheet/import.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 41
+[31-May-2020 17:01:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/nonameec/study/php_spreadsheet/import.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 41
+[31-May-2020 22:16:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php:10
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php on line 10
+[31-May-2020 22:16:59 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php:10
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php on line 10
+[31-May-2020 22:34:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type  in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(44): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), NULL)
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[31-May-2020 22:34:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type  in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(45): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), NULL)
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 18:27:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type  in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(41): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), NULL)
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 18:34:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate A in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php:42
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1267): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1227): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1126): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(33): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'Ronald')
+#4 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 42
+[02-Jun-2020 18:40:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate A in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php:42
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1267): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1227): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1126): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(33): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'Ronald')
+#4 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 42
+[02-Jun-2020 18:42:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate A in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php:42
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1267): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1227): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1126): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(33): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'Ronald')
+#4 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 42
+[02-Jun-2020 19:32:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type Xlxs in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(91): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'Xlxs')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 19:32:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type Xlxs in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(91): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'Xlxs')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 19:33:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type Xlxs in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(91): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'Xlxs')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 19:35:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type Xlxs in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(91): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'Xlxs')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 19:36:58 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type Xlxs in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(91): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'Xlxs')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 19:38:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Writer\Exception: No writer found for type Xlxs in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php:50
+Stack trace:
+#0 /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php(91): PhpOffice\PhpSpreadsheet\IOFactory::createWriter(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), 'Xlxs')
+#1 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 50
+[02-Jun-2020 20:01:25 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/nonameec/study/php_spreadsheet/import.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/import.php on line 35
+[02-Jun-2020 23:39:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function trrval() in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php on line 57
+[02-Jun-2020 23:41:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_real_escap_string() in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php on line 56
+[02-Jun-2020 23:42:07 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_real_escap_string() in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/nonameec/study/php_spreadsheet/php_spreadsheet_export.php on line 56
